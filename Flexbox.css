@@ -1,0 +1,132 @@
+html, body{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+    line-height: 1.65;
+    padding-bottom: 1000px;
+}
+
+.container-satu{
+    width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.kolom-utama{
+    flex: 3;
+    order: 2;
+}
+
+.sidebar-satu{
+    flex: 1;
+    order: 1;
+}
+
+.sidebar-dua{
+    flex: 1;
+    order: 3;
+}
+
+
+
+
+
+/* Latihan 2 */
+
+.container-dua{
+
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.layanan{
+
+     width: 30%;
+     padding: 20px;
+     box-sizing: border-box;
+
+}
+
+.layanan.satu { 
+    background-color: rgb(88, 189, 236);
+}
+.layanan.dua { 
+    background-color: rgb(113, 233, 193);
+}
+.layanan.tiga {
+    background-color: rgb(243, 99, 99);
+}
+
+
+/* latihan 3 */
+
+.container-tiga{
+
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.thumbnail{
+    width: 25%;
+}
+
+.thumbnail img{
+
+width: 100%;
+
+
+}
+
+/* Latihan 4 */
+
+.container-empat{
+
+    width: 800px;
+    margin: auto;
+    display: flex;
+
+}
+
+.card{
+
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(255, 243, 138);
+    overflow: hidden;
+    margin:10px;
+    box-shadow: 100px 100px 100px rgb(173, 35, 228);
+}
+
+.card.header{
+
+    height: 150px;
+    background-color: rgb(163, 218, 236);
+}
+
+.card .content{
+
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.button{
+
+    background-color: aqua;
+    width: 15px;
+    height: 10px;
+}
+
